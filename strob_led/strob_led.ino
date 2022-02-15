@@ -1,5 +1,5 @@
 #include  <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x3f, 20, 4);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 #include <PWM.h>
 
 byte STROB_LIGHT = 9;
